@@ -66,7 +66,7 @@ python visualize_pdes.py --pde_name "advection"
 https://darus.uni-stuttgart.de/api/access/datafile/133136
 
 # visualize
-python visualize_pdes.py --pde_name "burgers"
+python visualize_pdes.py --pde_name "burgers" --data_path "data/"
 ```
 
 --------------------

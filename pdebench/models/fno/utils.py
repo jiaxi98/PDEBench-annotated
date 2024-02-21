@@ -184,6 +184,7 @@ class FNODatasetSingle(Dataset):
         if filename[-2:] != 'h5':
             print(f".HDF5 file extension is assumed hereafter")
         
+            #print(root_path)
             with h5py.File(root_path, 'r') as f:
                 keys = list(f.keys())
                 keys.sort()
